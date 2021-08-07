@@ -1,0 +1,85 @@
+ body {
+    background-color: #111111;
+  }
+
+  #main {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    font-weight: 500;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .parent {}
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    z-index: 2;
+    background-color: #ffc3bf;
+  }
+
+  .container>br {
+    width: 100%;
+    content: '';
+  }
+
+  #title {
+    font-size: 30px;
+  }
+
+  .text {
+    left: 0;
+    font-size: 18px;
+  }
+
+  #dropdown {
+    display: flex;
+    margin-bottom: 15px;
+    width: 275px;
+  }
+
+  #checkbox {}
+
+  .submit {
+    background-color: #ffffff;
+    font-size: 17px;
+    color: #ffc3bf;
+    border: 0px solid transparent;
+    margin-bottom: 5px;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .animation button:hover {
+    animation: submithover 0.3s infinite;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes submithover {
+    0% {}
+    100% {
+      background-color: #ffc3bf;
+      color: #ffffff;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .container {
+      width: 80%;
+    }
+  }
+
+  @media only screen and (max-width: 420px) {
+    .container {
+      width: 100%;
+    }
+  }
