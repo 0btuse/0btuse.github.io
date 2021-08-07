@@ -1,0 +1,59 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+<main id="main">
+  <div class="container">
+    <h1 id="title" class="text">
+      Survey
+    </h1>
+    <br>
+    <p class="text">
+      Please answer as honestly as possible.
+    </p>
+    <br>
+    <form>
+      <label class="text">
+  Email:
+  </label>
+      <input required placeholder="Please enter a valid email." type="email">
+      <p>
+        <label class="text">
+    Name:
+    </label>
+        <input placeholder='ex. "John"' required type="text" class="text">
+      </p>
+      <p>
+        <label class="text">
+  Your Year of Birth:
+    </label>
+        <input placeholder='ex. "1969"' type="number" id="number" min="1900" max="2020">
+      </p>
+      <p class="text">
+        Are you satisfied with our service?
+        <br>
+        <input value="yes" class="text" type="radio"> yes<br>
+        <input value="no" class="text" type="radio"> no<br>
+      </p>
+      <p class="text">
+        Your Experience:
+        <select id="dropdown">
+  <option value="beginner">Beginner</option>
+  <option value="intermediate">Intermediate</option>
+  <option value="expert">Expert</option>
+  </p>
+  <input class="text" id="checkbox" type="checkbox">I would refer this to a friend<br>
+  <input class="text" id="checkbox" type="checkbox">I wouldn't refer this to a friend<br>
+  <input class="text" id="checkbox" type="checkbox">I don't know<br>
+  <p class="text">
+    Additional Comments:
+  <br>
+  <textarea>
+  </textarea>
+  </p>
+          <a href="null" target="_blank" class="animation">
+  <button id="submit" class="text submit">
+   Submit
+  </button>
+          </a>
+</form>
+  </div>
+  </main>
