@@ -1,0 +1,213 @@
+<link href="fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+  body {
+    background-color: #181818;
+  }
+
+  img {
+    position: relative;
+    z-index: 4;
+    align: center;
+    width: 100%;
+    height: 800px;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+  }
+
+  #background1 {
+    position: relative;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    background-color: #000000;
+  }
+
+  #background2 {
+    position: relative;
+    z-index: 2;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    background-color: #0c0c0c;
+  }
+
+  #background3 {
+    position: relative;
+    z-index: 1;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    background-color: #090909;
+  }
+
+  #background4 {
+    position: relative;
+    z-index: 1;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    background-color: #111111;
+  }
+
+  h1 {
+    position: absolute;
+    z-index: 5;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    justify-text: center;
+    width: 100%;
+    top: 150px;
+  }
+
+  #subtitle {
+    position: absolute;
+    z-index: 5;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 19px;
+    font-weight: 100;
+    text-align: center;
+    justify-text: center;
+    width: 100%;
+    top: 250px;
+  }
+
+  #htmlcss {
+    position: absolute;
+    z-index: 5;
+    color: #ffffff;
+    font-family: "roboto";
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    justify-text: center;
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  #contact {
+    position: relative;
+    display: block;
+    z-index: 5;
+    color: #ffffff;
+    font-family: "roboto";
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    z-index: 6;
+    background-color: #040404;
+  }
+
+  #menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    top: 0;
+    margin: 5px;
+    padding: 0;
+    width: 100vw;
+    height: 23px;
+    text-align: justify;
+  }
+
+  #menu li {
+    display: flex;
+    width: 100px;
+    float: right;
+    margin-left: 15px;
+  }
+
+  #menu a {
+    font-family: "roboto";
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+  }
+
+  #menu a:hover {
+    animation-name: navhover;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes navhover {
+    0% {
+      color: #ffffff;
+    }
+    100% {
+      color: #62B5E3;
+    }
+  }
+
+  .examples {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+    width: 100%;
+    padding-top: 175px;
+    right: 0;
+    justify-content: space-around;
+  }
+
+  .projecthtml {
+    color: #ffffff;
+
+  }
+
+  #proj1 {}
+
+  #github {
+    height: 64px;
+    width: 64px;
+    opacity: 0.3;
+  }
+
+  #fcc {
+    height: 69px;
+    width: 75px;
+    opacity: 0.3;
+    margin-left: 20px;
+  }
+
+  #links img:hover {
+    animation-name: contacthover;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes contacthover {
+    0% {}
+    100% {
+      opacity: 1;
+    }
+  }
+
+  #links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
+  }
